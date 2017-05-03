@@ -1,0 +1,20 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+#about {
+    font-size: 18px;
+}
+
+.navbar {
+    //Gradient from https://uigradients.com/#PacificDream
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-gradient(linear, 100% 0, 0 0, from(#0f3443), to(#34e89e));
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);
+    background: -moz-linear-gradient(to right, #0f3443, #34e89e);
+    background: -o-linear-gradient(to right, #0f3443, #34e89e);
+    background: linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
