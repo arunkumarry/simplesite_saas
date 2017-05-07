@@ -13,7 +13,5 @@ ActionMailer::Base.smpt_settings= {
     :password => ENV['SENDGRID_PASSWORD'],
     :domain => 'heroku.com',
     :enable_startstls_auto => true
-    
 }
-config.action_mailer.default_url_options = { :host => 'localhost' }
-config.action_mailer.default_url_options = { :host => 'rocky-stream-32602.heroku.com' }
+
