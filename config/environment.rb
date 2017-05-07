@@ -4,7 +4,8 @@ require File.expand_path('../application', __FILE__)
 # Initialize the Rails application.
 Rails.application.initialize!
 
-ActionMailer::Base.smpt_settings = {
+
+ActionMailer::Base.smpt_settings= {
     :address => 'smpt.sendgrid.net',
     :port => '587',
     :authentication => :plain,
@@ -14,3 +15,5 @@ ActionMailer::Base.smpt_settings = {
     :enable_startstls_auto => true
     
 }
+config.action_mailer.default_url_options = { :host => 'localhost' }
+config.action_mailer.default_url_options = { :host => 'rocky-stream-32602.heroku.com' }
